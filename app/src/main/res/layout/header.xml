@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/cardview_light_background"
+    android:paddingLeft="15dp">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+
+        android:src="@drawable/drawer_food_vector" />
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To all the food cravings"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/menu_slogan"
+        android:fontFamily="@font/baloo"
+        android:text="FoodApp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

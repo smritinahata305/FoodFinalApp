@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment1"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_payment_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CASH PAYMENT"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="250dp"
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="UPI PAYMENT"
+        android:id="@+id/btn_payment_upi"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
